@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@gnarwall19/nymeria": "^1.0.1",
     "lodash": "^4.17.5",
     "yargs": "^11.0.0"
   }

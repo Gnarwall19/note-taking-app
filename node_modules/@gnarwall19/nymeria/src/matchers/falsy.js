@@ -1,0 +1,9 @@
+/*
+flasy matcher will fail if the supplied value is truthy
+*/
+
+module.exports = (val) => {
+    if (!val) return true;
+
+    throw new Error(`The value IS truthy.\nValue: ${val}`);
+};
